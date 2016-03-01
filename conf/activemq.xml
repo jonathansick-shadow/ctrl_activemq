@@ -66,7 +66,7 @@
                   </pendingMessageLimitStrategy>
 	-->
                 </policyEntry>
-                <policyEntry queue=">" producerFlowControl="true" memoryLimit="1mb">
+                <policyEntry queue=">" producerFlowControl="true" memoryLimit="1mb" gcInactiveDestinations="true">
                   <!-- Use VM cursor for better latency
                        For more information, see:
 
